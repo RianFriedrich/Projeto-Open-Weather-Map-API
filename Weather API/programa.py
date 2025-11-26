@@ -5,7 +5,7 @@ import requests
 
 def buscar_clima():
     cidade = entrada_cidade.get()
-    api_key = "78192a2b6e43c04b8cf1dc24be0dd5e6"
+    api_key = sua_chave_api
 
     url = "https://api.openweathermap.org/data/2.5/weather"
 
@@ -97,3 +97,4 @@ label_detalhes.pack(pady=5)
 
 
 root.mainloop()
+
